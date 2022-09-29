@@ -1,5 +1,5 @@
 <template>
-  <p>A propos de moi</p>
+  <p>Contact</p>
 </template>
 
 <script setup></script>

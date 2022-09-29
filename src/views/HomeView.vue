@@ -1,7 +1,5 @@
-
 <template>
-    <p>tototot</p>
+  <p>Mes compétences</p>
 </template>
 
-  <script setup>
-  </script>
+<script setup></script>
