@@ -1,5 +1,6 @@
 <template>
   <NavBar />
+  <AboutMe />
   <!-- <div id="nav">
     <router-link to="/">Home</router-link> | 
     <router-link to="/about">About</router-link>  
@@ -8,6 +9,7 @@
 </template>
 <script setup>
 import NavBar from "./components/NavBar.vue";
+import AboutMe from "./views/AboutMe.vue";
 </script>
 
 <style>

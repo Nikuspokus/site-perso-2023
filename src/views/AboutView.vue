@@ -1,5 +1,6 @@
+TODO : changer le nom du fichier ;
 <template>
-  <p>A propos de moi</p>
+  <p>Mes compétences</p>
 </template>
 
 <script setup></script>
