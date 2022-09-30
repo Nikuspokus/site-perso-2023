@@ -9,7 +9,53 @@ TODO : changer le nom du fichier
     </p>
   </section>
   <section>2</section>
-  <section class="about">3</section>
+  <section class="about min-vw-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/237/200/150"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/238/200/150"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <img
+              src="https://picsum.photos/id/239/200/150"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section>4</section>
 </template>
 
@@ -19,9 +65,9 @@ TODO : changer le nom du fichier
 h2 {
   padding-top: 10rem;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 20px;
   font-family: rubik;
-  font-weight: 900;
+  font-weight: bold;
   color: white;
 }
 section p {
@@ -35,8 +81,13 @@ section p {
   color: white;
 }
 .about {
+  height: 80vh;
   background-color: #6e07f3;
 
   /* background-color: #07f3b8; */
+}
+.container {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 </style>
