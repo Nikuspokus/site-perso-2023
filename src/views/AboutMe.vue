@@ -1,12 +1,14 @@
 TODO : changer le nom du fichier
 <template>
   <section class="about">
-    <h2>A propos de moi</h2>
-    <p>
-      Je suis passionné par le secteur du web et du design. Après plusieurs
-      années dans l'infographie, j'ai acquis des compétences de développeur
-      Frontend. Je suis un développeur autodidacte.
-    </p>
+    <div class="description">
+      <h2>A propos de moi</h2>
+      <p>
+        Je suis passionné par le secteur du web et du design. Après plusieurs
+        années dans l'infographie, j'ai acquis des compétences de développeur
+        Frontend. Je suis un développeur autodidacte.
+      </p>
+    </div>
   </section>
   <section>2</section>
   <section class="about min-vw-100">
@@ -62,6 +64,9 @@ TODO : changer le nom du fichier
 <script setup></script>
 
 <style>
+.description {
+  align-items: center;
+}
 h2 {
   padding-top: 10rem;
   text-transform: uppercase;
@@ -81,7 +86,7 @@ section p {
   color: white;
 }
 .about {
-  height: 80vh;
+  /* height: 80vh; */
   background-color: #6e07f3;
 
   /* background-color: #07f3b8; */
